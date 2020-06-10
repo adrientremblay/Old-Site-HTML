@@ -1,0 +1,145 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+#panorama-div {
+  height: calc(100vh - 50px);
+  background:url("./images/wall.jpg");
+  background-size : cover;
+}
+
+#filter-div {
+  background-color: black;
+  opacity: 0.3;
+  width : 100%;
+  height : calc(100vh - 50px);
+  position : absolute;
+  /* text-align: center; */
+  color: white;
+  line-height: 600px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 70px;
+}
+
+#header{
+  height : 50px;
+  background-color: black;
+  text-align: left;
+  color : white;
+  line-height: 50px;
+  padding-left: 50px;
+  font-size: 20px;
+  font-family: "Fjalla One", serif;
+}
+
+#panorama-image {
+  height : 700px;
+  width : 100%;
+  position : absolute;
+}
+
+.icon {
+  color : white;
+  height : 50px;
+  padding : 5px 5px 5px 5px;
+}
+
+#footer {
+  width : 100%;
+  height : 100px;
+  background-color: black;
+  text-align: left;
+  color : white;
+  padding : 10px 10px 10px 10px;
+}
+
+.body-div {
+  height : 100vh;
+  width : 100%;
+}
+
+#spacer {
+  width : 100%;
+  height : calc(100vh - 650px);
+  background-color : black;
+  color : white;
+}
+
+th {
+  /* border : 1px solid black; */
+  width : 50%;
+}
+
+li {
+  margin: 20px 0;
+}
+
+#profile-img {
+  height : 512px;
+  width : 384px;
+  float : top;
+  border-radius : 4%;
+
+}
+
+.vl {
+  border-left: 2px solid white;
+  height : 75%;
+  margin : 0 auto;
+  width: 0px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 5px;
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+#coding-div {
+  background-color : #f3f3f3;
+  text-align : left;
+  /* padding : 15px 15px 15px 15px; */
+  border : 1px solid white; /** redneck code **/
+}
+
+.project-button{
+  background-color: #d3f3fd;
+  margin : 5% 5% 5% 5%;
+  vertical-align: middle;
+  height : 100px;
+  width : 90%;
+}
+
+.body-div-header {
+  margin-top : 35px ;
+  margin-left : 35px ;
+  font-style : italic;
+  float : top;
+}
+
+#whoami-div {
+  background-color : #f3f3f3;
+}
+
+#description {
+  vertical-align: center;
+  margin : 0px auto;
+  font-size : 35px;
+  opacity : 0px;
+}
+
+#description-div {
+  display: flex;
+  align-items: center;
+}
+
+div#footer > a {
+  color : lightblue;
+}

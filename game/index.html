@@ -1,0 +1,41 @@
+<DOCTYPE! html>
+<meta charset="utf-8"/>
+
+<html>
+  <head>
+    <script src = "phaser.js"></script> <!-- Phaser  -->
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.9.0/dist/phaser.js"></script> <!-- Phaser Documentation -->
+    <script src = "globalVariables.js"></script> <!-- Global Variables -->
+    <script src = "classes/Entity.js"></script> <!-- Game Classes -->
+    <script src = "classes/Player.js"></script>
+    <script src = "classes/Enemy.js"></script>
+    <script src = "classes/Button.js"></script>
+    <script src = "scenes/loading.js"></script> <!-- Scenes -->
+    <script src = "scenes/mainMenu.js"></script>
+    <script src = "scenes/gameScene.js"></script>
+    <script src = "globalFunctions.js"></script> <!-- Global Functions -->
+    <link rel = "stylesheet" type = "text/css" href = "style.css" />
+  </head>
+
+  <body>
+    <script>
+      //Game Config
+      var config = {
+        type : Phaser.AUTO,
+        width : gameWidth,
+        height : gameHeight,
+        physics : {
+          default : "arcade",
+          arcade : {
+            gravity : {y : 300},
+            debug : false
+          }
+        },
+        scene : myGame.scenes
+      };
+
+      //Initializing Game
+      var game = new Phaser.Game(config);
+    </script>
+  </body>
+<html>

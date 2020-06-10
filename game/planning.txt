@@ -1,0 +1,7 @@
+ToDo:
+- Add platforming
+- Directional attack and blocking
+- Npc paths
+- Sprite using phaser update
+- Score screen on death
+- High Score
